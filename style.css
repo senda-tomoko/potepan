@@ -1,0 +1,22 @@
+.Flexbox {
+    background-color: #fcfaf5;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .ContentLeft {
+    background-color: #ff9800;
+    padding: 20px;
+  }
+  
+  .ContentRight {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ContentRight > div {
+    background-color: #ff9800;
+    padding: 20px;
+  }
