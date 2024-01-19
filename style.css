@@ -1,22 +1,123 @@
-.Flexbox {
-    background-color: #fcfaf5;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
+.container {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp" alt="プログラミングスクールでWebエンジニア輩出No.1" data-src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp" decoding="async" data-eio-rwidth="750" data-eio-rheight="832" data-src-webp="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp";
+}
+<a href="https://camp.potepan.com/" target="_blank"><img alt="サービスロゴ" src="https://mng-camp.potepan.com/_nuxt/img/service-logo.9c27004.svg"></a></div>
+
+<a class="logo" href="/"><img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp" alt="プログラミングスクールでWebエンジニア輩出No.1" data-src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp" decoding="async" data-eio-rwidth="750" data-eio-rheight="832" data-src-webp="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp"></a>
+
+
+
+.HeaderContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 36px;
+  min-width:  100%;
+  position: relative;
+}
+
+.link{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.Content{
+  display:flex;
+  text-align: right;
+}
+
+.content_img{
+  flex-basis:50%;
   }
+
   
-  .ContentLeft {
-    background-color: #ff9800;
-    padding: 20px;
-  }
+
+.ContentLeft{
+  display: flex;
+  justify-content: left;
   
-  .ContentRight {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .ContentRight > div {
-    background-color: #ff9800;
-    padding: 20px;
-  }
+}
+
+.ContentRight{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ContentRight>div {
+  display: flex;
+
+}
+
+.Container {
+  background-color:chocolate;
+  width: fit-content;
+}
+
+.font-bold {
+  display: flex;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+.circle {
+  position: relative;/
+  background-color: orange;
+  border-radius: orange;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  color: orange;
+  font-weight: bold;
+}
+
+.circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 5px orange;
+  display: inline-block;
+}
+
+.circle span {
+  position: absolute;
+  left: 0;
+  top: 50%
+  display: inline-block;
+  text-align: center;
+}
+
+
+.btn--orange,
+a.btn--orange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: orange;
+  height: 50px;
+  text-align: center;
+  text-decoration-line: none;
+  width: 20%;
+}
+.btn--orange :hover,
+a.btn--orange; hover {
+  color: white;
+  background: orange;
+}
+
+a.btn--radius {
+  border-radius: 100vh;
+}
+
+.About_video {
+  width: 50%
+}
